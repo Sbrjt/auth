@@ -42,6 +42,6 @@ ui.start('#firebaseui-auth-container', {
 			provider: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
 			clientId: '1094328919585-10vgakdq0kcdq846sk7jucfc78po3gqs.apps.googleusercontent.com'
 		}
-	],
-	credentialHelper: firebaseui.auth.CredentialHelper.GOOGLE_YOLO
+	]
+	// credentialHelper: firebaseui.auth.CredentialHelper.GOOGLE_YOLO
 })
