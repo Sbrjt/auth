@@ -22,7 +22,7 @@ btn2.addEventListener('click', async () => {
 
 auth.onAuthStateChanged((usr) => {
 	if (usr) {
-		p.innerHTML = 'Logged in'
+		p.innerHTML = 'Logged in 🎉'
 		btn1.disabled = true
 		btn2.disabled = false
 	}
