@@ -22,12 +22,12 @@ btn2.addEventListener('click', async () => {
 
 auth.onAuthStateChanged((usr) => {
 	if (usr) {
-		console.log(usr.displayName, usr.email)
+		p.innerHTML = 'Logged in'
 		btn1.disabled = true
 		btn2.disabled = false
 	}
 	else {
-		console.log('Logged out')
+		p.innerHTML = 'Logged out'
 		btn1.disabled = false
 		btn2.disabled = true
 	}
