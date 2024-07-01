@@ -43,5 +43,5 @@ ui.start('#firebaseui-auth-container', {
 			clientId: '1094328919585-10vgakdq0kcdq846sk7jucfc78po3gqs.apps.googleusercontent.com'
 		}
 	]
-	// credentialHelper: firebaseui.auth.CredentialHelper.GOOGLE_YOLO
+	// credentialHelper: firebaseui.auth.CredentialHelper.GOOGLE_YOLO // doesn't work
 })
